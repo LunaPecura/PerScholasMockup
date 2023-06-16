@@ -1,7 +1,7 @@
 /* FOR REFERENCE ********************************************/
 
 /* ----------------------------------Desktop */
-@media (max-width: 1880px) {
+/* @media (max-width: 1880px) {
   
   body {
     background-color: navy;
@@ -35,11 +35,11 @@
     display: block;
     width: 33%;
   } 
-}
+} */
 
 
 /* ----------------------------------Mid{Ipad} */
-@media (max-width: 1280px) {
+/* @media (max-width: 1280px) {
 
   body {
     background-color: beige;
@@ -73,11 +73,11 @@
     display: block;
     width: 25%;
   }
-} 
+}  */
 
 
 /* ------------------------------------Mobile */
-@media (max-width: 680px) {
+/* @media (max-width: 680px) {
 
   body {
     background-color: black;
@@ -110,11 +110,11 @@
     display: none;
     width: 0;
   }
-} 
+}  */
 
 
 /* --------------[General] */
-.signup {
+/* .signup {
   border: solid grey;
   border-width: .2px;
   border-radius: 22px;
@@ -130,4 +130,70 @@
   border: solid purple;
   display: flex;
   justify-content: space-evenly;
-}
+} */
+
+
+@media (max-width: 680px) {
+
+  body {
+    background-color: lightgray;
+  }
+
+  button {
+    background-color: darkgoldenrod;
+  }
+
+  .topBar {
+
+  }
+
+  .navBar {
+    display: flex;
+  }
+
+
+
+
+
+
+
+
+
+
+  /* body {
+
+    background-color: lightgray;
+    color:white;
+  }
+
+  .navbar {
+    border: solid white;
+    height: 43px;
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  #hidden {
+    display: none;
+  }
+
+  .logoContainer {
+    display: none;
+    border: solid grey;
+    width: 33%;
+  }
+
+  .mainPic{
+    width: 100%; 
+  }
+
+  .profile {
+    border: solid red;
+    display: none;
+    width: 0;
+  } */
+
+
+
+  
+} 
