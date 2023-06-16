@@ -140,6 +140,7 @@
   body {
     background-color: lightgray;
     font-family: Calibri;
+    margin: 0px;
   }
 
   button {
@@ -155,8 +156,8 @@
 
   }
 
-  .icon {
-
+  img.icon {
+    height: 50px;
   }
 
   #iconMenu {
@@ -164,42 +165,66 @@
   }
 
   #iconMortarBoard {
-
+    content: url("https://perscholas.org/wp-content/themes/per-scholas/assets/images/icon-for-learners.svg");
   }
 
   #iconOfficeBuilding {
-
+    content: url('https://perscholas.org/wp-content/themes/per-scholas/assets/images/icon-for-biz.svg');
   }
 
-  .logoPerScholas {
-
+  img.logoPerScholas {
+    height: 20px;
+    content: url("https://perscholas.org/wp-content/themes/per-scholas/assets/images/logo1.svg");
   }
 
-  .topBar {
+  .topBar { /* TODO: MAKE STICKY *******************************/
     display: flex;
     background-color: darkblue;
     color: white;
     font-size: 25px;
   }
 
-  #buttonApply {
+  button#buttonApply {
     font-size: 15px;
   }
 
   .navBar {
     display: flex;
+    background-color: white;
+    padding: 20px;
   }
 
   .section {
-
+    margin-bottom: 100px;
   }
 
   .picXL {
-    
+    width: 480px;
+    height: 480px;
+  }
+
+  .picXL#picGirl2 { /* TODO: fix measures / zoom in(?) */
+    height: 400px;
+  }
+
+  .picXL#videoPreview {
+    height: 300px;
   }
 
   .textBox {
     background-color: white;
+    padding: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    position: relative;
+    top: -150px;
+  }
+
+  .textBox#blue {
+    background-color: blue;
+    color: white;
+    top: 0px;
+    margin: 0;
   }
 
   .textBoxTop {
@@ -215,11 +240,25 @@
   }
 
   .alumniPart {
-
+    background-color: white;
+    padding: 20px;
   }
 
   .alumniCorps {
     display: flex;
+    justify-content: space-between;
+  }
+
+  img.logo {
+    height: 50px;
+  }
+
+  img.logo#alumniCorp1 {
+    content: url('https://perscholas.org/wp-content/uploads/2023/05/logo-tek-500x135.png');
+  }
+
+  img.logo#alumniCorp2 {
+    content: url('https://perscholas.org/wp-content/uploads/2023/05/Nagarro_logo_new.svg-500x125.png');
   }
 
   .alumniCorpsNav {
@@ -231,17 +270,17 @@
 
   }
 
-  .textBox#blue {
-    background-color: blue;
-    color: white;
-  }
-
   .section#footer {
 
   }
 
   .footerPart {
+    background-color: white;
+    padding: 20px;
+  }
 
+  .footerPart#footerLogo {
+    
   }
 
   .footerLink {
@@ -258,6 +297,28 @@
 
   .contactMethod#socialMedia {
     display: flex;
+    height: 75px;
+  }
+
+  img.icon {
+    height: 30px;
+    margin: 20px 20px 20px 0px;
+  }
+
+  img.icon#twitter {
+    content: url('https://cdn.icon-icons.com/icons2/3406/PNG/512/twitter_logo_icon_216442.png');
+  }
+
+  img.icon#facebook {
+    content: url('https://image.similarpng.com/very-thumbnail/2021/01/Black-facebook-icon-on-transparent-background-PNG.png');
+  }
+
+  img.icon#instagram {
+    content: url('https://e7.pngegg.com/pngimages/521/488/png-clipart-logo-computer-icons-instagram-logo-miscellaneous-text.png');
+  }
+
+  img.icon#linkedin {
+    content: url('https://www.citypng.com/public/uploads/preview/hd-black-linkedin-in-icon-text-symbol-sign-png-316239729560infmcfmdl.png');
   }
 
   .impactReportSignup {
@@ -270,6 +331,30 @@
 
   .awards {
     display: flex;
+    align-content: flex-start;
+  }
+
+  img.award {
+    height: 90px;
+    margin-right: 10px;
+  }
+
+  img.award#award1 {
+    height: 50px;
+    margin-top: 20px;
+    content: url('https://perscholas.org/wp-content/uploads/2020/07/charityNavigator.png');
+  }
+
+  img.award#award2 {
+    content: url('https://perscholas.org/wp-content/uploads/2022/09/candid-seal-platinum-2022-200x200.png');
+  }
+
+  img.award#award3 {
+    content: url('https://perscholas.org/wp-content/uploads/2020/07/ImpactMatters-Five-Star-Badge@2x-200x200.png');
+  }
+
+  img.award#award4 {
+    content: url('https://perscholas.org/wp-content/uploads/2020/07/cfp-200x200.png');
   }
 
 
