@@ -133,25 +133,144 @@
 } */
 
 
+/* SMALL SCREEN ***************************************************************************************/
+
 @media (max-width: 680px) {
 
   body {
     background-color: lightgray;
+    font-family: Calibri;
   }
 
   button {
-    background-color: darkgoldenrod;
+    background-color: gold;
+    color: black;
+    font-size: 13px;
+    padding: 10px;
+    border: none;
+    font-weight: 800;
+  }
+
+  img {
+
+  }
+
+  .icon {
+
+  }
+
+  #iconMenu {
+
+  }
+
+  #iconMortarBoard {
+
+  }
+
+  #iconOfficeBuilding {
+
+  }
+
+  .logoPerScholas {
+
   }
 
   .topBar {
+    display: flex;
+    background-color: darkblue;
+    color: white;
+    font-size: 25px;
+  }
 
+  #buttonApply {
+    font-size: 15px;
   }
 
   .navBar {
     display: flex;
   }
 
+  .section {
 
+  }
+
+  .picXL {
+    
+  }
+
+  .textBox {
+    background-color: white;
+  }
+
+  .textBoxTop {
+    display: flex;
+  }
+
+  .textBoxHeading {
+    
+  }
+
+  .video {
+
+  }
+
+  .alumniPart {
+
+  }
+
+  .alumniCorps {
+    display: flex;
+  }
+
+  .alumniCorpsNav {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .navElement {
+
+  }
+
+  .textBox#blue {
+    background-color: blue;
+    color: white;
+  }
+
+  .section#footer {
+
+  }
+
+  .footerPart {
+
+  }
+
+  .footerLink {
+
+  }
+
+  .footerLink#bold{
+    font-weight: bold;
+  }
+
+  .footerPart#contactMethods {
+
+  }
+
+  .contactMethod#socialMedia {
+    display: flex;
+  }
+
+  .impactReportSignup {
+    display: flex;
+  }
+
+  .legalItem {
+    font-size: 13px;
+  }
+
+  .awards {
+    display: flex;
+  }
 
 
 
